@@ -34,7 +34,7 @@ if os.getenv('RTT_CC'):
 
 # only support GNU GCC compiler.
 PLATFORM    = 'gcc'
-EXEC_PATH   = '/usr/bin'
+EXEC_PATH   = '/Users/joshua/tools/gcc-arm-none-eabi-6_2-2016q4/bin/'
 
 if os.getenv('RTT_EXEC_PATH'):
     EXEC_PATH = os.getenv('RTT_EXEC_PATH')
